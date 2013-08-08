@@ -1,0 +1,12 @@
+{
+  "name": "jquery-hidden-height",
+  "version": "0.1.0",
+  "main": "src/jquery.hidden.height.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
