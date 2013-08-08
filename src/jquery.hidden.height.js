@@ -1,25 +1,24 @@
 (function ($) {
 
-	$.fn.hiddenSize = function () {
+	$.fn.hiddenHeight = function () {
 		var $this = $(this),
 			currentDisplay = $this.css('display'),
 			currentVisibility = $this.css('visibility'),
-			size = {};
+			height;
 
 		$this.css({
 			display: 'block',
 			visibility: 'hidden'
 		});
 
-		size.height = $this.height();
-		size.width = $this.width();
+		height = $this.height();
 
 		$this.css({
 			display: currentDisplay,
 			visibility: currentVisibility
 		});
 
-		return size;
+		return height;
 	};
 
 })(jQuery);
