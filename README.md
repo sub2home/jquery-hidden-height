@@ -1,4 +1,4 @@
-jquery-hidden-height
+jquery-hidden-size
 ====================
 
-Very lightweight jquery plugin to get the height of a hidden element.
+Very lightweight jquery plugin to get the size (height/width) of a hidden element.
